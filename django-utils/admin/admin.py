@@ -25,7 +25,7 @@ from django.utils.safestring import mark_safe
 from django.contrib import admin
 from django.db import models as dmodels
 from django.db.models import Field, ForeignKey, OneToOneField
-from covscanhub.other.decorators import public
+from django-utils import public
 from types import ModuleType
 
 
